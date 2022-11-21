@@ -50,7 +50,7 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            ghcr.io/kingachwaleba/lab:ghfront1 
+            kingachwaleba/lab:ghfront1 
       
       #Przenies cache'a
       - name: Move cache
